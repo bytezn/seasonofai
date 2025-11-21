@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Season of AI: MCP - Call for Speakers
 
-# Run and deploy your AI Studio app
+Digital banner and landing page for Data & AI Community Day Durban Call for Speakers.
 
-This contains everything you need to run your app locally.
+## Development
 
-View your app in AI Studio: https://ai.studio/apps/drive/1R-M46xip1ylC01SCNJ53KAFvhAu-O2m5
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Run Locally
+2.  Run the dev server:
+    ```bash
+    npm run dev
+    ```
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3.  Build for production:
+    ```bash
+    npm run build
+    ```
